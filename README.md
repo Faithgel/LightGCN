@@ -17,6 +17,14 @@ The code has been tested running under Python 3.6.5. The required packages are a
 * scipy == 1.1.0
 * sklearn == 0.19.1
 * cython == 0.29.15
+
+## Creating a Virtual Environment
+To create a virtual environment with Python 3.6.5, run the following commands:
+```
+python3.6 -m venv lightgcn_env
+source lightgcn_env/bin/activate
+```
+
 ## C++ evaluator
 We have implemented C++ code to output metrics during and after training, which is much more efficient than python evaluator. It needs to be compiled first using the following command. 
 ```
