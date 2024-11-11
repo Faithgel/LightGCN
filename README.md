@@ -109,4 +109,9 @@ We provide three processed datasets: Gowalla, Yelp2018 and Amazon-book.
   * Parallelized sampling on CPU
   * C++ evaluation for top-k recommendation
 
-=======
+## Running LightGCN on Kaggle
+To run the LightGCN model on Kaggle, follow these steps:
+
+1. Open the `LightGCN_Kaggle.ipynb` notebook in Kaggle.
+2. Follow the instructions in the notebook to set up the environment, install required libraries, and upload dataset files.
+3. Run the notebook cells to compile the C++ evaluator, update the data path, and train the LightGCN model.
